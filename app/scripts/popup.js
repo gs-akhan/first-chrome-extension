@@ -1,4 +1,9 @@
 'use strict';
 
-console.log('\'Allo \'Allo! Popup');
+(function() {
+	var App = window.angular.module('FirstRun',[]);
+	App.controller('DisplayController', ['$scope', function($scope){
+		$scope.title = 'Angular Works';
+	}]);
+})();
 

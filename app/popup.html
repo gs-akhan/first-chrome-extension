@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app = "FirstRun">
     <head>
         <meta charset="utf-8">
         <!-- build:css styles/vendor.css -->
@@ -8,20 +8,11 @@
         <!-- endbuild -->
         <!-- build:css styles/main.css -->
         <link href="styles/main.css" rel="stylesheet">
+        <script type="text/javascript" src = "bower_components/angularjs/angular.min.js"></script>
         <!-- endbuild -->
     </head>
-    <body style = "width : 250px;">
-        <h1>'Allo, 'Allo This is some more!</h1>
-
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <!-- endbower -->
-        <!-- endbuild -->
-
-        <!-- build:js scripts/popup.js -->
+    <body style = "width : 250px;" ng-controller="DisplayController">
+        <h1>{{title}}</h1>
         <script src="scripts/popup.js"></script>
-
-
-        <!-- endbuild -->
     </body>
 </html>
