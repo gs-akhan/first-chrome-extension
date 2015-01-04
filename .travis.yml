@@ -4,5 +4,5 @@ node_js:
 before_install:
   - npm install bower -g
   - cd test
-  - before_install
+  - bower install
   - cd ..
