@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/gs-akhan/first-chrome-extension.svg?branch=master)](https://travis-ci.org/gs-akhan/first-chrome-extension)
 first-chrome-extension
 ======================
 
